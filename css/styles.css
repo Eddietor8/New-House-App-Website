@@ -1,0 +1,173 @@
+body {
+  font-family: "Poppins";
+  font-weight: 500;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Section */
+.colored-section {
+  background-color: #313131;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Container Section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+
+  padding-bottom: 7%;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-size: 1.9rem;
+  font-weight: 600;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+
+/* Download Buttons */
+.download {
+  border-radius: 10px;
+  height: 2.7rem;
+  padding: 0;
+}
+
+
+/* Title section */
+#title .container-fluid {
+  padding-left: 4%;
+  padding: 2% 15% 9%;
+  text-align: left;
+}
+
+/* Title image */
+.title-image {
+  padding-right: 1%;
+  width: 17%;
+  transform: rotate(17deg);
+  right: 19%;
+  -webkit-filter: drop-shadow(7px 7px 7px #222);
+  filter: drop-shadow(7px 7px 7px #222);
+  position: absolute;
+}
+
+/* About Us Section */
+#features {
+
+  background-color: #fff;
+
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+
+}
+
+.icon {
+  color: #313131;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #5f5f5f;
+}
+
+.feature-box {
+
+  padding: 4%;
+}
+
+/* Projects Section */
+
+#projects {
+  text-align: center;
+  background-color: #313131;
+
+}
+
+.card-house {
+  padding: 1% 1%;
+}
+
+
+#press {
+  background-color: #fff;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 5rem 1rem 5rem;
+}
+
+.social-icon:hover {
+  color: #5f5f5f;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    display: none;
+  }
+
+  #projects .house-9, .house-8, .house-7, .house-6, .house-5, .house-4{
+    display: none;
+  }  
+}
